@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficMonitor", "TrafficMonitor\TrafficMonitor.csproj", "{7DA05C44-0F5B-4CED-B425-A263737B1B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficMonitor_Tests", "TrafficMonitor_Tests\TrafficMonitor_Tests.csproj", "{98FBD420-999C-48F1-B0E5-46CF9600BE92}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DA05C44-0F5B-4CED-B425-A263737B1B4D} = {7DA05C44-0F5B-4CED-B425-A263737B1B4D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA05C44-0F5B-4CED-B425-A263737B1B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA05C44-0F5B-4CED-B425-A263737B1B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA05C44-0F5B-4CED-B425-A263737B1B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA05C44-0F5B-4CED-B425-A263737B1B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FBD420-999C-48F1-B0E5-46CF9600BE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FBD420-999C-48F1-B0E5-46CF9600BE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FBD420-999C-48F1-B0E5-46CF9600BE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FBD420-999C-48F1-B0E5-46CF9600BE92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBA1A80F-BAEB-43F9-AF87-A6CC76100453}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+{
+  "logFilePath": "access.log",
+  "alertThreshold": 10,
+  "alertIntervalInSeconds": 120,
+  "executionIntervalInSeconds": 10,
+  "applicationDomain": "127.0.0.1"
+}
